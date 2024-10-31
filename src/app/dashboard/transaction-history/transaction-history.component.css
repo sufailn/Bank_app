@@ -1,0 +1,58 @@
+.transaction-history {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-history h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: #080808;
+  font-weight: 600;
+}
+
+td {
+  background-color: #fff;
+  color: #333;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+.mat-elevation-z8 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.credit {
+  color: green;
+}
+
+.debit {
+  color: red;
+}
+
+.mat-paginator {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}

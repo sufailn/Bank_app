@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "accountNumber": "5631210234",
+      "name": "John Doe",
+      "password": "password1",
+      "balance": 36584
+    },
+    {
+      "id": "2",
+      "accountNumber": "6753215678",
+      "name": "Jane Smith",
+      "password": "password2",
+      "balance": 20550
+    },
+    {
+      "id": "3",
+      "accountNumber": "5563289101",
+      "name": "Alice Johnson",
+      "password": "password3",
+      "balance": 4900
+    },
+    {
+      "id": "4",
+      "accountNumber": "6577841122",
+      "name": "Bob Brown",
+      "password": "password4",
+      "balance": 22445
+    },
+    {
+      "id": "5",
+      "accountNumber": "6674530097",
+      "name": "Charlie Davis",
+      "password": "password5",
+      "balance": 40000
+    },
+    {
+      "id": "9ef2",
+      "accountNumber": "67046453695",
+      "name": "Ameya",
+      "password": "123456789",
+      "balance": -500945
+    },
+    {
+      "id": "0eac",
+      "accountNumber": "987654321",
+      "name": "veena",
+      "password": "1234",
+      "balance": 448700
+    },
+    {
+      "id": "5f65",
+      "accountNumber": "57046453693",
+      "name": "shihab",
+      "password": "shihab@1006",
+      "balance": 11500
+    },
+    {
+      "id": "e141",
+      "accountNumber": "9988776655",
+      "name": "Eby",
+      "password": "1212",
+      "balance": 887
+    },
+    {
+      "id": "77ab",
+      "accountNumber": "9072053473",
+      "name": "sree",
+      "password": "123",
+      "balance": 3749
+    },
+    {
+      "id": "88a6",
+      "accountNumber": "5631210234",
+      "name": "sufail ahammed n",
+      "password": "12345",
+      "balance": 0
+    },
+    {
+      "id": "b14b",
+      "accountNumber": "123456",
+      "name": "abi",
+      "password": "123456",
+      "balance": 0
+    }
+  ],
+  "transactions": [
+    {
+      "id": "eda1",
+      "senderAccountNumber": "67046453695",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-09-07",
+      "description": "Ameya",
+      "amount": -90,
+      "balance": 22940
+    },
+    {
+      "id": "f335",
+      "senderAccountNumber": "1122",
+      "receiverAccountNumber": "9072053473",
+      "date": "2024-09-08",
+      "description": "Credit",
+      "amount": 100,
+      "balance": 3409
+    },
+    {
+      "id": "31b9",
+      "senderAccountNumber": "987654321",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-09-17",
+      "description": "Veena",
+      "amount": 700,
+      "balance": 727
+    },
+    {
+      "id": "03bb",
+      "senderAccountNumber": "5631210234",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-09-14",
+      "description": "John Doe",
+      "amount": -100,
+      "balance": 36714
+    },
+    {
+      "id": "662b",
+      "senderAccountNumber": "9988776655",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-09-16",
+      "description": "Grocery Shop",
+      "amount": -340,
+      "balance": 387
+    },
+    {
+      "id": "31b9",
+      "senderAccountNumber": "9072053473",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-09-19",
+      "description": "Sree",
+      "amount": 150,
+      "balance": 727
+    },
+    {
+      "id": "31b9",
+      "senderAccountNumber": "5563289101",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-09-21",
+      "description": "Alice johnson",
+      "amount": 400,
+      "balance": 727
+    },
+    {
+      "id": "7328",
+      "senderAccountNumber": "57046453693",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-10-29",
+      "description": "Credit",
+      "amount": 500,
+      "balance": 887
+    },
+    {
+      "id": "f198",
+      "senderAccountNumber": "57046453693",
+      "receiverAccountNumber": "9988776655",
+      "date": "2024-10-29",
+      "description": "Debit",
+      "amount": -500,
+      "balance": 11500
+    },
+    {
+      "id": "deaf",
+      "senderAccountNumber": "67046453695",
+      "receiverAccountNumber": "987654321",
+      "date": "2024-10-29",
+      "description": "Credit",
+      "amount": 5400,
+      "balance": 448700
+    },
+    {
+      "id": "06e8",
+      "senderAccountNumber": "67046453695",
+      "receiverAccountNumber": "987654321",
+      "date": "2024-10-29",
+      "description": "Debit",
+      "amount": -5400,
+      "balance": -945
+    },
+    {
+      "id": "04a4",
+      "senderAccountNumber": "67046453695",
+      "receiverAccountNumber": "67046453695",
+      "date": "2024-10-29",
+      "description": "Credit",
+      "amount": 500000,
+      "balance": 499055
+    },
+    {
+      "id": "e2e5",
+      "senderAccountNumber": "67046453695",
+      "receiverAccountNumber": "67046453695",
+      "date": "2024-10-29",
+      "description": "Debit",
+      "amount": -500000,
+      "balance": -500945
+    }
+  ]
+}

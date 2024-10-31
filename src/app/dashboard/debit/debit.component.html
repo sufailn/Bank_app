@@ -1,0 +1,16 @@
+<div class="debit-container">
+  <h2>Debit Amount</h2>
+  <form (ngSubmit)="onDebit()">
+    <mat-form-field appearance="fill">
+      <mat-label>Account Number</mat-label>
+      <input matInput [(ngModel)]="accountNumber" name="accountNumber" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Amount</mat-label>
+      <input matInput [(ngModel)]="amount" name="amount" type="number" required>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Debit</button>
+  </form>
+</div>

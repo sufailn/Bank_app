@@ -1,0 +1,63 @@
+/* Container styling */
+.main-container{
+  background-image: url('/assets/nav.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.credit-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-image: url('/assets/nav.jpg'); /* White background for card effect */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #2d3748; /* Dark text color */
+  margin-top: 90px;
+}
+
+/* Title styling */
+.credit-container h2 {
+  color: #1e88e5; /* Primary color for title */
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* Form styling */
+.credit-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Input field styling */
+mat-form-field {
+  width: 100%;
+}
+
+mat-form-field input {
+  padding: 0.5rem;
+}
+
+/* Button styling */
+button[type="submit"] {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #1e88e5; /* Primary button color */
+  color: #ffffff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1565c0; /* Darker shade on hover */
+}

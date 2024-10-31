@@ -1,0 +1,19 @@
+<div class="main-container">
+  <div class="credit-container">
+    <h2>Credit Amount</h2>
+  <form (ngSubmit)="onCredit()">
+    <mat-form-field appearance="fill">
+      <mat-label>Account Number</mat-label>
+      <input matInput [(ngModel)]="accountNumber" name="accountNumber" required>
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Amount</mat-label>
+      <input matInput [(ngModel)]="amount" name="amount" type="number" required>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Credit</button>
+  </form>
+</div>
+
+</div>

@@ -1,0 +1,71 @@
+/* Main page container for centering */
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  padding: 20px;
+   background-image: url("/assets/REG.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+/* Form card container */
+.register-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #3b81c83e;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Header styling */
+.register-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+/* Mat-form field styling */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+mat-label {
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+/* Input field styling */
+input[matInput] {
+  padding: 3px;
+  border-radius: 6px;
+  background-color: #f9f9f92b;
+  color: #ffffff;
+}
+
+/* Button styling */
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+}

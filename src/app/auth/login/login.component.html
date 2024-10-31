@@ -1,0 +1,22 @@
+<div class="login-page">
+  <div class="login-card">
+    <h2>LOGIN</h2>
+    <form (ngSubmit)="onLogin()">
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Account Number</mat-label>
+        <input matInput [(ngModel)]="accountNumber" name="accountNumber" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Password</mat-label>
+        <input matInput [(ngModel)]="password" name="password" type="password" required>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit" class="login-btn">Login</button>
+    </form>
+
+    <button mat-button color="green" class="register-btn" (click)="onRegister()">
+      Don't have an account? Register
+    </button>
+  </div>
+</div>

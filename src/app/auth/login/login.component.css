@@ -1,0 +1,71 @@
+/* Main page container for centering */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.9); /* Darken the background image */
+}
+
+/* Form card container */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: rgba(255, 238, 0, 0.345); /* Semi-transparent white */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+  border-radius: 12px; /* More rounded edges */
+  text-align: center;
+}
+
+/* Header styling */
+.login-card h2 {
+  margin-bottom: 1.5rem;
+  color: #000000; /* Changed to white for better contrast */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/* Full width styling */
+.full-width {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+.login-btn, .register-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px; /* Rounded edges for buttons */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.register-btn {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  background-color: rgba(23, 31, 188, 0.6); /* Semi-transparent dark blue */
+  color: white; /* Text color */
+}
+
+.register-btn:hover {
+  background-color: rgba(23, 31, 188, 0.8); /* Darker on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}

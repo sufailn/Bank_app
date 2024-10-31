@@ -1,0 +1,24 @@
+<div class="main-container">
+  <mat-toolbar class="toolbar">
+    <span>Banking App</span>
+    <span class="spacer"></span>
+    <button mat-button routerLink="/dashboard/credit">Credit</button>
+    <button mat-button routerLink="/dashboard/debit">Debit</button>
+    <button mat-button routerLink="/dashboard/transaction-history">Transaction History</button>
+    <button mat-button (click)="logout()">Logout</button>
+  </mat-toolbar>
+  <!-- //for seen transacation mute this div -->
+  <div class="dashboard-container">
+    <mat-card class="dashboard-card atm-card">
+      <h2>Welcome {{ loggedInUserName }}</h2>
+      <div class="card-content">
+        <p>Your account balance: <strong>{{accoundBalance}}</strong></p>
+        <p>Total transactions this month: <strong>15</strong></p>
+        <p><a routerLink="/dashboard/credit">Make a Credit Transaction</a></p>
+        <p><a routerLink="/dashboard/debit">Make a Debit Transaction</a></p>
+      </div>
+    </mat-card>
+  </div>
+
+</div>
+<router-outlet></router-outlet>

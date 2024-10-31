@@ -1,0 +1,87 @@
+/* General Styles */
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('/assets/nav.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-container{
+  background: linear-gradient(135deg, #0a69ad, #90caf9); 
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+button {
+  margin-left: 10px;
+  color: #ffffff; /* White text color */
+  background-color: #0091ff9c; /* Red background */
+  font-size: small;
+  padding: 10px 20px;
+  border: 1px solid #002fff7e;
+  border-radius: 4px; /* Optional: Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #020b4a; /* Darker red on hover */
+  color: #ffffff; /* White text color remains */
+  border-color: #0843ba90; /* Darker border on hover */
+}
+.color{
+  color: rgb(2, 5, 35);
+  background-image: url('/assets/nav.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.dashboard-card {
+  width: 100%;
+  max-width: 900px;
+  height: 55%;
+  padding: 2rem;
+  background-image: url("/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.7); /* Darken the background image */ /* Card background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent; /* Transparent border initially */
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  border-color: #d43737; /* Border color change on hover */
+}
+.card-content a {
+  color: #ff0000; /* Link color */
+  text-decoration: none;
+}
+.card-content {
+  color: #ffffff; /* Subtle color for text */
+  font-size: 1rem;
+}
+.dashboard-card h2 {
+  margin-bottom: 1.5rem;
+  color: #ffffff; /* Darker color for headings */
+  font-family: 'Roboto', sans-serif;
+}
+.dashboard-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 64px); /* Adjust height to fit below the toolbar */
+  padding: 20px;
+  background-color: #b12a8247; /* Light background color for contrast */
+}
